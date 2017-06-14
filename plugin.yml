@@ -1,18 +1,18 @@
 name: Racing
-main: racing\racing
-version: 1.0b
+main: Racing\Racing
+version: 1.0
 api: [1.1.0]
 description: Making Your Own Racing
 permissions: 
-    racing.rbase:
-     description: "Set the race base"
-     default: op
+  racing.rbase:
+   description: "Set the race base"
+   default: op
 	 
-    racing.rend:
-     description: "Set the ending of the race"
-     default: op
+  racing.rend:
+   description: "Set the ending of the race"
+   default: op
     
-    racing.rstart:
-     description: "Start the race"
-     default: member	 
+   racing.rstart:
+    description: "Start the race"
+    default: member	 
 	
