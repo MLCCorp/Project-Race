@@ -1,18 +1,21 @@
 name: Racing
 main: Racing\Racing
-version: 1.0
+version: 0.1beta
 api: [1.1.0]
 description: Making Your Own Racing
 permissions: 
-  racing.rbase:
+  racing.newbase:
    description: "Set the race base"
    default: op
 	 
-  racing.rend:
+  racing.newend:
    description: "Set the ending of the race"
    default: op
     
-   racing.rstart:
+   racing.start:
     description: "Start the race"
     default: member	 
 	
+   racing.setchest
+    description: "Set bonus items chest"
+    default: op
