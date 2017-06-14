@@ -3,16 +3,16 @@ main: racing\racing
 version: 1.0b
 api: [1.1.0]
 description: Making Your Own Racing
-permission: 
+permissions: 
     racing.rbase:
-	 description: "Set the race base"
-	 default: op
+     description: "Set the race base"
+     default: op
 	 
     racing.rend:
      description: "Set the ending of the race"
      default: op
     
-    racing.start:
+    racing.rstart:
      description: "Start the race"
      default: member	 
 	
